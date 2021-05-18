@@ -14,7 +14,7 @@ function connectDB() {
     host: "localhost",
     user: "mcmike",
     database: "Prueba",
-    password: "Quintero03",
+    password: "",
   });
   connection.query("select * from Persona", function (err, results, fields) {
     if (err) {
